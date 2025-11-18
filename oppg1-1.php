@@ -11,7 +11,7 @@
             $etternavn = $_POST["etternavn"];
 
 echo '<nav style="background:#333;padding:10px;">
-<a href="/index.html" style="color:white;margin-right:20px;">Forside</a>
+<a href="index.html" style="color:white;margin-right:20px;">Forside</a>
 Oppgave 1: 
 <a href="oppg1-1.html" style="color:white;margin-right:10px;">1-1</a>
 <a href="oppg1-2.html" style="color:white;margin-right:10px;">1-2</a>
