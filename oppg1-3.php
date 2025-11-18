@@ -5,6 +5,7 @@
     <title>Oppgave 1-3 Resultat</title>
 </head>
 <body>
+    
 <nav style="background:hsl(232, 42%, 57%);padding:10px;">
     <a href="index.html" style="color:white;margin-right:20px;">Forside</a>
     <a href="oppg1-1.html" style="color:white;margin-right:20px;">Oppgave 1-1</a>
