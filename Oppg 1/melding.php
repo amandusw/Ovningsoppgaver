@@ -15,5 +15,6 @@
             echo "<h2>Hei. Ingen data er mottatt</h2>";
         }
     ?>
+    
 </body>
 </html>
