@@ -1,4 +1,5 @@
 [build]
 # Sets the directory Nixpacks will use as the root of the project.
 # This makes Dokploy ONLY see the files inside this folder.
-base_directory = "oppg 1"
+base_directory = "Oppg 1"
+
