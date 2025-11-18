@@ -15,10 +15,10 @@
 echo '<nav style="background:#333;padding:10px;">
 <a href="/index.html" style="color:white;margin-right:20px;">Forside</a>
 Oppgave 1: 
-<a href="/Tasks/oppgave1/oppg1-1.html" style="color:white;margin-right:10px;">1-1</a>
-<a href="/Tasks/oppgave1/oppg1-2.html" style="color:white;margin-right:10px;">1-2</a>
-<a href="/Tasks/oppgave1/oppg1-3.html" style="color:white;margin-right:10px;">1-3</a>
-<a href="/Tasks/oppgave1/oppg1-4.html" style="color:white;margin-right:10px;">1-4</a>
+<a href="oppg1-1.html" style="color:white;margin-right:10px;">1-1</a>
+<a href="oppg1-2.html" style="color:white;margin-right:10px;">1-2</a>
+<a href="oppg1-3.html" style="color:white;margin-right:10px;">1-3</a>
+<a href="oppg1-4.html" style="color:white;margin-right:10px;">1-4</a>
 </nav><br>';
 
         echo "<h2>God dag $fornavn $etternavn, du er $alder år og like sprek.</h2>";
