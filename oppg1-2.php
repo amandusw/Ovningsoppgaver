@@ -12,7 +12,7 @@
         $etternavn = htmlspecialchars($_POST["etternavn"]);
         $alder = intval($_POST["alder"]); // gjør alder til tall
 
-echo '<nav style="background:#333;padding:10px;">
+echo '<nav style="background:hsl(232, 42%, 57%);padding:10px;">
 <a href="/index.html" style="color:white;margin-right:20px;">Forside</a>
 Oppgave 1: 
 <a href="oppg1-1.html" style="color:white;margin-right:10px;">1-1</a>
