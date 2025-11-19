@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Hilsen</title>
+    <title>Oppgave 1-2 Resultat</title>
 </head>
 <body>
 

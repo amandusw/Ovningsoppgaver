@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Melding</title>
+    <title>Oppgave 1-1 Resultat</title>
 </head>
 <body>
 
