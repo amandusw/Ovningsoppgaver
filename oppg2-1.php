@@ -20,6 +20,17 @@
 
 <?php
     
+$svar=$_POST["svar"];
+
+if($svar == "9") /*Avgitt svar er riktig*/
+    {
+        print("Riktig. 3 ganger 3 er 9.");
+    }
+    else /*Avgitt svar er feil*/
+    {
+        print("Feil. 3 ganger 3 er ikke $svar. 3 ganger 3 er 9.");
+    }
+
 ?>
 </body>
 </html>
