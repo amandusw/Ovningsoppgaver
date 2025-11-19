@@ -16,7 +16,7 @@
     <a href="oppg2-6.html" style="color:white;margin-right:20px;">Oppgave 2-6</a>
     <a href="oppg2-7.html" style="color:white;margin-right:20px;">Oppgave 2-7</a>
     <a href="oppg2-8.html" style="color:white;margin-right:20px;">Oppgave 2-8</a>
-</nav>>
+</nav>
 
 <h2>Resultat:</h2>  
 <?php
