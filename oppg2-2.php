@@ -23,16 +23,25 @@
 
 $svar=$_POST["svar"];
 
-if($svar == "9") /*Avgitt svar er riktig*/
+if($svar)
     {
-        print("Riktig. 3 ganger 3 er 9.");
+        print("Du har ikke svart på spørsmålet.");
     }
-    else /*Avgitt svar er feil*/
+    else if ($svar == "j")
     {
-        print("Feil. 3 ganger 3 er ikke $svar. 3 ganger 3 er 9.");
+        print("Du har svart ja på spørsmålet.");
+    }
+    else if ($svar == "n")
+    {
+        print("Du har svart nei på spørsmålet.");
+    }
+    else 
+    {
+        print("Du har ikke svart ja eller nei på spørsmålet.");
     }
 
 ?>
 </body>
 </html>
 
+ 
