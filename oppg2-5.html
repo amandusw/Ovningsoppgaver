@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Oppgave 2-4 Resultat</title>
+    <title>Oppgave 2-5</title>
 </head>
 <body>
 
@@ -18,39 +18,20 @@
     <a href="oppg2-8.html" style="color:white;margin-right:20px;">Oppgave 2-8</a>
 </nav>
 
-<h2>Resultat:</h2>  
-<?php
+    <h2>Oppgave 2-5</h2>
+    <h2>regneoperasjon</h2>
 
-$gift=$_POST["gift"];
-$barn=$_POST["barn"];
+    <form action="oppg2-5.php" method="post">
+        
+        <label>Tall 1</label>
+        <input type="number" name="tall1" required><br><br>
+        <label>Tall 2</label>
+        <input type="number" name="tall2" required><br><br>
+        <label>Angi regneoperasjon (1=addisjon, 2=subtraksjon, 3=multiplikasjon, 4=divisjon)</label>
+        <input type="number" name="tall3" required><br><br>
+        <Button type="submit">Send inn</Button> 
 
-if(!$gift || !$barn)
-    {
-        print("Du har ikke svart på spørsmålet.");
-    }
-    else if ($gift == "j" && $barn == "j") /*(|| $svar == "J" || $svar == "ja" || $svar == "JA")*/
-    {
-        print("Du er gift og har barn.");
-    }
-    else if ($gift == "n" && $barn =="n") /*(|| $svar == "N" || $svar == "nei" || $svar == "NEI")*/
-    {
-        print("Du er ikke gift og har ikke barn.");
-    }
-    else if ($gift == "j" && $barn =="n")
-    {
-        print("Du er gift og har ikke barn.");
-    }
-    else if ($gift == "n" && $barn =="j")
-    {
-        print("Du er ikke gift og har barn.");
-    }
-    else
-    {
-        print("Du har ikke svart ja eller nei på spørsmålet.");
-    }
-
-?>
+    </form>
 </body>
 </html>
 
- 
