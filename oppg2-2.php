@@ -23,7 +23,7 @@
 
 $svar=$_POST["svar"];
 
-if($svar)
+if(!$svar)
     {
         print("Du har ikke svart på spørsmålet.");
     }
