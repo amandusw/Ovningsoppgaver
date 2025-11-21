@@ -21,8 +21,8 @@
 <h2>Resultat:</h2>  
 <?php
 
-$svar=$_POST["gift"];
-$svar=$_POST["barn"];
+$gift=$_POST["gift"];
+$barn=$_POST["barn"];
 
 if(!$gift || !$barn)
     {
