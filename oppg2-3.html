@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Oppgave 2-2 Resultat</title>
+    <title>Oppgave 2-3</title>
 </head>
 <body>
 
@@ -18,30 +18,15 @@
     <a href="oppg2-8.html" style="color:white;margin-right:20px;">Oppgave 2-8</a>
 </nav>
 
-<h2>Resultat:</h2>  
-<?php
+    <h2>Oppgave 2-3</h2>
+    <h2>StUdEnT?</h2>
 
-$svar=$_POST["svar"];
+    <form action="oppg2-2.php" method="post">
+        <label>Er du student (j/n)?</label>
+        <input type="text" name="svar" required maxlength="1"><br><br>
+        <Button type="submit">Send inn</Button>
 
-if(!$svar)
-    {
-        print("Du har ikke svart på spørsmålet.");
-    }
-    else if ($svar == "j")
-    {
-        print("Du har svart ja på spørsmålet.");
-    }
-    else if ($svar == "n")
-    {
-        print("Du har svart nei på spørsmålet.");
-    }
-    else 
-    {
-        print("Du har ikke svart ja eller nei på spørsmålet.");
-    }
-
-?>
+    </form>
 </body>
 </html>
 
- 

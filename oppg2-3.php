@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Oppgave 2-2 Resultat</title>
+    <title>Oppgave 2-3 Resultat</title>
 </head>
 <body>
 
@@ -27,11 +27,11 @@ if(!$svar)
     {
         print("Du har ikke svart på spørsmålet.");
     }
-    else if ($svar == "j")
+    else if ($svar == "j" || $svar == "J" || $svar == "ja" || $svar == "JA")
     {
         print("Du har svart ja på spørsmålet.");
     }
-    else if ($svar == "n")
+    else if ($svar == "n" || $svar == "N" || $svar == "nei" || $svar == "NEI")
     {
         print("Du har svart nei på spørsmålet.");
     }
