@@ -27,11 +27,11 @@ if(!$svar)
     {
         print("Du har ikke svart på spørsmålet.");
     }
-    else if ($svar == "j" || $svar == "J" || $svar == "ja" || $svar == "JA")
+    else if ($svar == "j" | | $svar == "J" | | $svar == "ja" | | $svar == "JA")
     {
         print("Du har svart ja på spørsmålet.");
     }
-    else if ($svar == "n" || $svar == "N" || $svar == "nei" || $svar == "NEI")
+    else if ($svar == "n" | | $svar == "N" | | $svar == "nei" | | $svar == "NEI")
     {
         print("Du har svart nei på spørsmålet.");
     }
